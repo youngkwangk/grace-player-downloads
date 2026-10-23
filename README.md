@@ -2,9 +2,9 @@
 
 A desktop music player for preparing playlists and running them with care. Set the right start and end for each track, balance its volume, and move smoothly into the next song.
 
-**[Download the latest release](https://github.com/youngkwangk/grace-player-downloads/releases/latest)** · [Watch the walkthrough](media/grace-player-walkthrough.mp4) · [Report an issue](https://github.com/youngkwangk/grace-player-downloads/issues)
+**[Download the latest release](https://github.com/youngkwangk/grace-player-downloads/releases/latest)** · [Watch the walkthrough](media/grace-player-walkthrough.gif) · [Report an issue](https://github.com/youngkwangk/grace-player-downloads/issues)
 
-![Grace Music Player with a playlist, track cue points, and the now-playing and up-next waveforms](media/playlist.png)
+![Grace Music Player with a playlist, track cue points, and the now-playing and up-next waveforms](media/playlist.gif)
 
 ## Download and install
 
@@ -33,9 +33,9 @@ Your playlists, cue points, track settings, and playback position are saved betw
 
 ![Animated walkthrough of playback, editing cue points, adjusting the equalizer, and navigating playlists](media/grace-player-walkthrough.gif)
 
-**[Watch or download the full-size screen recording (MP4)](media/grace-player-walkthrough.mp4)**
+**[Open the complete animated walkthrough](media/grace-player-walkthrough.gif)**
 
-The walkthrough shows playback, cue editing, the equalizer, moving to the next track, switching playlists, YouTube import, and keyboard help. Captured from the Mac app using original demo audio and example playlists. The recording is silent.
+The walkthrough shows playback, cue editing, the equalizer, moving to the next track, switching playlists, YouTube import, and keyboard help. Captured from the Mac app using original demo audio and example playlists. All demos are looping animated GIFs with a visible mouse pointer and click highlights.
 
 ## Prepare each track
 
@@ -43,7 +43,7 @@ The walkthrough shows playback, cue editing, the equalizer, moving to the next t
 
 Select a track to open **Track Info**. Under **Cue Points**, drag the waveform handles or enter a **Start** and **End** time, such as `00:05.00` and `01:15.00`. The player uses that section of the track. Click **Reset** to restore the full duration.
 
-![Track inspector showing edited cue points and a highlighted playback region](media/cue-points.png)
+![Animated demo of editing track cue points with a visible mouse pointer](media/cue-points.gif)
 
 ### Balance volume and shape the sound
 
@@ -51,7 +51,7 @@ Use **Track Volume** to adjust an individual track from **0% to 200%**. The app 
 
 Open **Parametric EQ** in Track Info for five independent filter bands. Select a band, choose its filter type, and adjust frequency, gain where applicable, and Q. Each playlist item keeps its own EQ settings.
 
-![Five-band parametric equalizer with its frequency-response graph and band controls](media/equalizer.png)
+![Animated demo of adjusting equalizer bands with a visible mouse pointer](media/equalizer.gif)
 
 ## Control the flow
 
@@ -69,7 +69,7 @@ Right-click a track or playlist for more actions, including renaming and duplica
 
 Click **YouTube** above the track list. Choose a video or playlist, paste its link, and follow the import prompts. Downloads appear in the playlist with progress and cancellation controls, and the downloaded audio is saved in your Music folder. Packaged apps include the download tools.
 
-![YouTube import dialog with video and playlist options](media/youtube-import.png)
+![Animated demo of switching between YouTube video and playlist import](media/youtube-import.gif)
 
 ## Keyboard shortcuts
 
@@ -84,7 +84,7 @@ Click **YouTube** above the track list. Choose a video or playlist, paste its li
 
 Playback shortcuts are suspended while you are editing a text box.
 
-![Keyboard shortcut help inside Grace Music Player](media/keyboard-shortcuts.png)
+![Animated demo of opening keyboard shortcut help inside Grace Music Player](media/keyboard-shortcuts.gif)
 
 ## Updates
 
