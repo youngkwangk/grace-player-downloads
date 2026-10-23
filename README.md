@@ -41,13 +41,17 @@ The walkthrough shows playback, cue editing, the equalizer, moving to the next t
 
 ### Choose where it starts and stops
 
-Select a track to open **Track Info**. Under **Cue Points**, drag the waveform handles or enter a **Start** and **End** time, such as `00:05.00` and `01:15.00`. The player uses that section of the track. Click **Reset** to restore the full duration.
+Select a track to open **Track Info**. Under **Cue Points**, drag the left handle to change the start, drag the right handle to change the end, or drag the shaded region to move both together. You can also enter a **Start** and **End** time, such as `00:05.00` and `01:15.00`. The player uses that section of the track. Click **Reset** to restore the full duration.
 
-![Animated demo of editing track cue points with a visible mouse pointer](media/cue-points.gif)
+![Animated demo of dragging cue-point handles, moving the selected region, and entering exact times](media/cue-points.gif)
 
 ### Balance volume and shape the sound
 
 Use **Track Volume** to adjust an individual track from **0% to 200%**. The app also analyzes tracks for loudness normalization; the adjustment appears beside the track-volume heading. The main volume control adjusts overall playback.
+
+Drag the **Track Volume** slider to raise or lower that track’s level. Click **Reset** to return it to **100%**.
+
+![Animated demo of raising and lowering Track Volume, then resetting it to 100%](media/track-volume.gif)
 
 Open **Parametric EQ** in Track Info for five independent filter bands. Select a band, choose its filter type, and adjust frequency, gain where applicable, and Q. Each playlist item keeps its own EQ settings.
 
