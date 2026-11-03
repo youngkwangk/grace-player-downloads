@@ -67,9 +67,9 @@ Right-click a track or playlist for more actions, including renaming and duplica
 
 ## Add audio from YouTube
 
-Click the YouTube button in the toolbar (or press **⇧⌘O**), paste a video or playlist link, and choose what to download. Downloads appear in the playlist with progress and can be cancelled; the audio is saved in your Music folder. Grace includes everything it needs and keeps its YouTube downloader up to date by itself. If a download fails, it updates the downloader and tries once more; **File → Update YouTube Downloader** updates it on demand.
+Click the YouTube button in the toolbar (or press **⇧⌘O**) and paste a video or playlist link; a link you've just copied is filled in for you. Grace shows the video, or the playlist's videos with their lengths, so you can choose what to download. Downloads appear in the playlist with progress and can be cancelled; the audio is saved in your Music folder. Grace includes everything it needs and keeps its YouTube downloader up to date by itself. If a download fails, it updates the downloader and tries once more; **File → Update YouTube Downloader** updates it on demand.
 
-![Animated demo of opening Add from YouTube and switching between video and playlist import](media/youtube-import.gif)
+![Animated demo of Add from YouTube filling in a copied video link with its preview, then loading a playlist with each video's length](media/youtube-import.gif)
 
 ## Keyboard shortcuts
 
