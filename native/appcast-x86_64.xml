@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Grace</title>
+    <item>
+      <title>Grace 0.2.0</title>
+      <pubDate>Tue, 03 Nov 2026 05:12:22 -0000</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>First release of the native Grace for macOS, for Apple silicon and Intel Macs.</p><ul><li>Plays the same library as the Electron app, with crossfades, cue points, track volume and EQ.</li><li>Fades and crossfades run on the audio clock, so they stay smooth while the app is busy.</li><li>YouTube downloads keep yt-dlp up to date on their own.</li><li>Light, dark or system appearance in Settings.</li><li>Checks for updates every six hours, or from Grace → Check for Updates…</li></ul>]]></description>
+      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.2.0/Grace-0.2.0-x86_64.zip" sparkle:edSignature="OCkK9TplXPsNni4JZE2W5VW8gF/OJb/bbj4U/Kq9a60Oh1Sc1k1OHCf3O7ABhW1DE7TpmukevFRn2xE4HEJoBg==" length="105593584" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
