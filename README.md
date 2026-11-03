@@ -1,103 +1,85 @@
-# Grace Music Player
+# Grace
 
-A desktop music player for preparing playlists and running them with care. Set the right start and end for each track, balance its volume, and move smoothly into the next song.
+A Mac music player for preparing playlists and running them with care. Set the right start and end for each track, balance its volume, and move smoothly into the next song.
 
-**[Download the latest release](https://github.com/youngkwangk/grace-player-downloads/releases/latest)** · [Watch the walkthrough](media/grace-player-walkthrough.gif) · [Report an issue](https://github.com/youngkwangk/grace-player-downloads/issues)
-
-![Grace Music Player with a playlist, track cue points, and the now-playing and up-next waveforms](media/playlist.gif)
+**Download Grace 0.3.0:** [Apple silicon](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.0/Grace-0.3.0-arm64.zip) · [Intel](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.0/Grace-0.3.0-x86_64.zip) · [Release notes](https://github.com/youngkwangk/grace-player-downloads/releases/tag/native-v0.3.0) · [Report an issue](https://github.com/youngkwangk/grace-player-downloads/issues)
 
 ## Download and install
 
-Choose your download from the **Assets** section of the [latest release](https://github.com/youngkwangk/grace-player-downloads/releases/latest).
+| Computer | Download |
+| --- | --- |
+| Mac with Apple silicon (M1 or later) | [Grace-0.3.0-arm64.zip](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.0/Grace-0.3.0-arm64.zip) |
+| Mac with an Intel processor | [Grace-0.3.0-x86_64.zip](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.0/Grace-0.3.0-x86_64.zip) |
 
-| Computer | Download | Installation |
-| --- | --- | --- |
-| Mac with Apple Silicon (M1 or later) | `arm64` Mac `.dmg` | Open the disk image and drag **Music Player** to **Applications**. |
-| Mac with an Intel processor | `x64` Mac `.dmg` | Open the disk image and drag **Music Player** to **Applications**. |
-| Windows, 64-bit | Windows `.exe` installer | Run the installer. This version supports in-app updates. |
-| Windows, portable | Windows `.zip` | Extract the ZIP and run the app. Update this version manually. |
+Open the ZIP and drag **Grace** to **Applications**. **Apple menu → About This Mac** shows your chip or processor. Grace needs macOS 14 Sonoma or later, and is signed and notarized by Apple.
 
-On a Mac, **Apple menu → About This Mac** shows your chip or processor. Mac release builds are signed and notarized. Windows builds are currently unsigned.
+**Coming from Music Player?** Grace opens the same playlists, cue points, track settings and playback position, with nothing to import. Use one app at a time: Music Player does not notice changes made in Grace, and its next save would replace them.
+
+**On Windows?** Grace is Mac only. Music Player for Windows is in the [latest Music Player release](https://github.com/youngkwangk/grace-player-downloads/releases/latest) and keeps updating itself.
 
 ## Your first playlist
 
-1. Click **New** in the left sidebar to create a playlist, then give it a name.
-2. Click **Add Tracks** to choose local audio files. Supported formats: **MP3, FLAC, AAC, WAV, and OGG**.
-3. Drag tracks by their handles to arrange the playing order.
-4. Click a track to inspect it. Double-click a track to start playback, or use the **Play** button.
-5. Watch **Now Playing** and **Up Next** at the bottom. Click the Now Playing waveform to seek within the current track.
+1. Click **New Playlist** at the bottom of the sidebar, then type its name.
+2. Click **+** in the toolbar (or press **⌘O**) to add audio files or folders, or drag them from Finder onto the list. Supported formats: **MP3, AAC/M4A, WAV, AIFF and FLAC**.
+3. Drag tracks to arrange the playing order.
+4. Click a track to inspect it. Double-click a track to play it, crossfading from the one that is playing.
+5. Watch **Now Playing** and **Up Next** at the bottom. Click the Now Playing waveform to jump within the current track; its darker part shows how far it has played.
 
-Your playlists, cue points, track settings, and playback position are saved between sessions. Local tracks stay in their original locations; keep those files available. If a file moves, use **Locate file** on the missing track to reconnect it.
-
-## See it in action
-
-![Animated walkthrough of playback, editing cue points, adjusting the equalizer, and navigating playlists](media/grace-player-walkthrough.gif)
-
-**[Open the complete animated walkthrough](media/grace-player-walkthrough.gif)**
-
-The walkthrough shows playback, cue editing, the equalizer, moving to the next track, switching playlists, YouTube import, and keyboard help. Captured from the Mac app using original demo audio and example playlists. All demos are looping animated GIFs with a visible mouse pointer and click highlights.
+Your playlists, cue points, track settings and playback position are saved as you go. Tracks stay where they are on disk, so keep those files available. If a file moves, the track is marked **File missing**: double-click it to locate the file again.
 
 ## Prepare each track
 
 ### Choose where it starts and stops
 
-Select a track to open **Track Info**. Under **Cue Points**, drag the left handle to change the start, drag the right handle to change the end, or drag the shaded region to move both together. You can also enter a **Start** and **End** time, such as `00:05.00` and `01:15.00`. The player uses that section of the track. Click **Reset** to restore the full duration.
-
-![Animated demo of dragging cue-point handles, moving the selected region, and entering exact times](media/cue-points.gif)
+Select a track to see it in the inspector on the right (show or hide it with the toolbar button). Under **Cue Points**, drag the handles to set where playback starts and stops, or type exact **Start** and **End** times such as `00:05.00`. **Reset** restores the full track.
 
 ### Balance volume and shape the sound
 
-Use **Track Volume** to adjust an individual track from **0% to 200%**. The app also analyzes tracks for loudness normalization; the adjustment appears beside the track-volume heading. The main volume control adjusts overall playback.
+**Track Volume** adjusts one track from **0% to 200%**. Grace also measures each new track's loudness and levels it automatically; the adjustment is shown beside the heading. The volume slider at the bottom right sets overall playback.
 
-Drag the **Track Volume** slider to raise or lower that track’s level. Click **Reset** to return it to **100%**.
-
-![Animated demo of raising and lowering Track Volume, then resetting it to 100%](media/track-volume.gif)
-
-Open **Parametric EQ** in Track Info for five independent filter bands. Select a band, choose its filter type, and adjust frequency, gain where applicable, and Q. Each playlist item keeps its own EQ settings.
-
-![Animated demo of adjusting equalizer bands with a visible mouse pointer](media/equalizer.gif)
+Open **Parametric EQ** for five filter bands. Drag a point on the graph, or select a band and set its filter type, frequency, gain and Q. Each playlist item keeps its own settings, and every change can be undone with **⌘Z**.
 
 ## Control the flow
 
 | Control | What it does |
 | --- | --- |
-| **Auto Advance** | Continue to the next track automatically, or stop after the current track. |
-| **Repeat** | Cycle between repeat off, repeat one track, and repeat the playlist. |
-| **Crossfade** | Set the overlap between tracks from **0 to 3 seconds**. |
-| **Previous / Next** | Move between tracks using the transport controls. |
+| **Repeat** | Cycle between repeat off, repeat the playlist, and repeat one track. |
+| **Auto Advance** | Continue to the next track, or stop after the current one. |
+| **Crossfade** | Set the overlap between tracks from **0 to 4 seconds**. |
+| **Previous / Next** | Move between tracks, crossfading. |
 | **Now Playing / Up Next** | See the current and upcoming tracks with their waveforms. |
 
 Right-click a track or playlist for more actions, including renaming and duplicating. Duplicate a track when you want a different cue range or sound settings for another occurrence of the same audio.
 
 ## Add audio from YouTube
 
-Click **YouTube** above the track list. Choose a video or playlist, paste its link, and follow the import prompts. Downloads appear in the playlist with progress and cancellation controls, and the downloaded audio is saved in your Music folder. Packaged apps include the download tools.
-
-![Animated demo of switching between YouTube video and playlist import](media/youtube-import.gif)
+Click the YouTube button in the toolbar (or press **⇧⌘O**), paste a video or playlist link, and choose what to download. Downloads appear in the playlist with progress and can be cancelled; the audio is saved in your Music folder. Grace includes everything it needs and keeps its YouTube downloader up to date by itself. If a download fails, it updates the downloader and tries once more; **File → Update YouTube Downloader** updates it on demand.
 
 ## Keyboard shortcuts
 
-| Action | Mac | Windows |
-| --- | --- | --- |
-| Play / pause | Space | Space |
-| Previous / next track | ← / → | ← / → |
-| Seek backward / forward 5 seconds | ⌘ ← / ⌘ → | Ctrl ← / Ctrl → |
-| Volume up / down 5% | ↑ / ↓ | ↑ / ↓ |
-| Show keyboard help | ? | ? |
-| Close a dialog | Escape | Escape |
+| Action | Keys |
+| --- | --- |
+| Play / pause | Space |
+| Previous / next track | ← / → |
+| Seek backward / forward 5 seconds | ⌘ ← / ⌘ → |
+| Volume up / down 5% | ↑ / ↓ |
+| Add files | ⌘ O |
+| Add from YouTube | ⇧ ⌘ O |
+| Undo / redo | ⌘ Z / ⇧ ⌘ Z |
+| Show keyboard help | ? |
 
-Playback shortcuts are suspended while you are editing a text box.
+Playback shortcuts are suspended while you are typing in a text box.
 
-![Animated demo of opening keyboard shortcut help inside Grace Music Player](media/keyboard-shortcuts.gif)
+## Appearance
+
+**Grace → Settings…** (⌘,) sets the theme: Match System, Light or Dark.
 
 ## Updates
 
-Use **Updates** in the title bar to check for a newer version. Choose to download it, then pause or stop playback and select **Restart to update**. The app saves the session before restarting. Update checks do not automatically download or install anything.
-
-Mac users should run the app from Applications. Windows users need the `.exe` installer for in-app updates; portable ZIP users should download new versions manually. Versions before **2.4.1** need one manual update to switch to this public update feed.
+Grace checks for updates every six hours, and on **Grace → Check for Updates…**. When one is available it shows what's new, and downloads and installs it only if you choose to; Grace then restarts with your session restored. Keep Grace in Applications so it can update itself.
 
 ## Help and feedback
 
-[Open an issue](https://github.com/youngkwangk/grace-player-downloads/issues) with your app version, operating system, and the steps that led to the problem. A screenshot helps explain what happened.
+[Open an issue](https://github.com/youngkwangk/grace-player-downloads/issues) with your Grace version (**Grace → About Grace**), your macOS version, and the steps that led to the problem. A screenshot helps explain what happened.
 
-This repository hosts official installers, update manifests, checksums, release notes, and this guide. Application source and development history are maintained in a separate private repository.
+This repository hosts the official downloads, update feeds, release notes and this guide. Application source and development history are kept in separate private repositories.
