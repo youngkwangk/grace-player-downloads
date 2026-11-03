@@ -3,13 +3,13 @@
   <channel>
     <title>Grace</title>
     <item>
-      <title>Grace 0.3.0</title>
-      <pubDate>Tue, 03 Nov 2026 06:19:15 -0000</pubDate>
-      <sparkle:version>30</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <title>Grace 0.3.1</title>
+      <pubDate>Tue, 03 Nov 2026 06:55:37 -0000</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Lighter and quieter.</p><ul><li>Uses less than half the CPU while playing, and less again while the window is hidden.</li><li>No longer keeps the Mac awake while paused: the speaker is released after 10 seconds of silence.</li><li>The waveform shows progress by its played colour; the playhead line is gone. Played bars are darker in light mode.</li><li>Elapsed and remaining time change together, once a second.</li><li>Double-clicking a track always selects it.</li><li>Crossfade goes up to 4 seconds.</li><li>The crossfade arrow lines up with the waveforms, and the crossfade and volume values are a softer grey.</li></ul>]]></description>
-      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.0/Grace-0.3.0-x86_64.zip" sparkle:edSignature="OOPkgG79xvrkDvzhXOYRVn/gM24bbBnGXsRJvvPWTrc9qOuNqA8viu22JxHKluYs5qNw92qIpKMpTupyGgMxAA==" length="105603459" type="application/octet-stream"/>
+      <description><![CDATA[<p>A friendlier Add from YouTube.</p><ul><li>Paste any YouTube link: Grace works out whether it&#x27;s a video or a playlist. Links that include a playlist show the playlist.</li><li>A YouTube link you&#x27;ve just copied is filled in for you.</li><li>Videos are previewed with their thumbnail, title and channel before downloading, and appear under their title while they download.</li><li>Playlists load on their own and show each video&#x27;s length.</li><li>The dialog says which playlist the downloads join and that they are saved as MP3 in Music.</li></ul>]]></description>
+      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.1/Grace-0.3.1-x86_64.zip" sparkle:edSignature="blNPbKQxy1VjUEVS8O6GqYMidB+yBhhq5pY/JFvSOj/jnRmnmKGF4UDN1sjHf2Fci1KwS6eqRBzFMwJ6DMdACw==" length="105625824" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
