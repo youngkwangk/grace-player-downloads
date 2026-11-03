@@ -3,13 +3,13 @@
   <channel>
     <title>Grace</title>
     <item>
-      <title>Grace 0.2.0</title>
-      <pubDate>Tue, 03 Nov 2026 05:12:22 -0000</pubDate>
-      <sparkle:version>26</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <title>Grace 0.3.0</title>
+      <pubDate>Tue, 03 Nov 2026 06:19:15 -0000</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>First release of the native Grace for macOS, for Apple silicon and Intel Macs.</p><ul><li>Plays the same library as the Electron app, with crossfades, cue points, track volume and EQ.</li><li>Fades and crossfades run on the audio clock, so they stay smooth while the app is busy.</li><li>YouTube downloads keep yt-dlp up to date on their own.</li><li>Light, dark or system appearance in Settings.</li><li>Checks for updates every six hours, or from Grace → Check for Updates…</li></ul>]]></description>
-      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.2.0/Grace-0.2.0-x86_64.zip" sparkle:edSignature="OCkK9TplXPsNni4JZE2W5VW8gF/OJb/bbj4U/Kq9a60Oh1Sc1k1OHCf3O7ABhW1DE7TpmukevFRn2xE4HEJoBg==" length="105593584" type="application/octet-stream"/>
+      <description><![CDATA[<p>Lighter and quieter.</p><ul><li>Uses less than half the CPU while playing, and less again while the window is hidden.</li><li>No longer keeps the Mac awake while paused: the speaker is released after 10 seconds of silence.</li><li>The waveform shows progress by its played colour; the playhead line is gone. Played bars are darker in light mode.</li><li>Elapsed and remaining time change together, once a second.</li><li>Double-clicking a track always selects it.</li><li>Crossfade goes up to 4 seconds.</li><li>The crossfade arrow lines up with the waveforms, and the crossfade and volume values are a softer grey.</li></ul>]]></description>
+      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.0/Grace-0.3.0-x86_64.zip" sparkle:edSignature="OOPkgG79xvrkDvzhXOYRVn/gM24bbBnGXsRJvvPWTrc9qOuNqA8viu22JxHKluYs5qNw92qIpKMpTupyGgMxAA==" length="105603459" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
