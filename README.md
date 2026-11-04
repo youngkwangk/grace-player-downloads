@@ -2,7 +2,7 @@
 
 A Mac music player for preparing playlists and running them with care. Set the right start and end for each track, balance its volume, and move smoothly into the next song.
 
-**Download Grace 0.3.2:** [Apple silicon](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.2/Grace-0.3.2-arm64.zip) · [Intel](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.2/Grace-0.3.2-x86_64.zip) · [Release notes](https://github.com/youngkwangk/grace-player-downloads/releases/tag/native-v0.3.2) · [Watch the walkthrough](media/grace-walkthrough.gif) · [Report an issue](https://github.com/youngkwangk/grace-player-downloads/issues)
+**Download Grace 0.4.0:** [Apple silicon](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.4.0/Grace-0.4.0-arm64.zip) · [Intel](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.4.0/Grace-0.4.0-x86_64.zip) · [Release notes](https://github.com/youngkwangk/grace-player-downloads/releases/tag/native-v0.4.0) · [Watch the walkthrough](media/grace-walkthrough.gif) · [Report an issue](https://github.com/youngkwangk/grace-player-downloads/issues)
 
 ![Grace switching playlists, crossfading into a double-clicked track, and seeking in the Now Playing waveform](media/playlist.gif)
 
@@ -10,8 +10,8 @@ A Mac music player for preparing playlists and running them with care. Set the r
 
 | Computer | Download |
 | --- | --- |
-| Mac with Apple silicon (M1 or later) | [Grace-0.3.2-arm64.zip](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.2/Grace-0.3.2-arm64.zip) |
-| Mac with an Intel processor | [Grace-0.3.2-x86_64.zip](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.2/Grace-0.3.2-x86_64.zip) |
+| Mac with Apple silicon (M1 or later) | [Grace-0.4.0-arm64.zip](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.4.0/Grace-0.4.0-arm64.zip) |
+| Mac with an Intel processor | [Grace-0.4.0-x86_64.zip](https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.4.0/Grace-0.4.0-x86_64.zip) |
 
 Open the ZIP and drag **Grace** to **Applications**. **Apple menu → About This Mac** shows your chip or processor. Grace needs macOS 14 Sonoma or later, and is signed and notarized by Apple.
 
