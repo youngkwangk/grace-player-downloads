@@ -3,13 +3,13 @@
   <channel>
     <title>Grace</title>
     <item>
-      <title>Grace 0.3.2</title>
-      <pubDate>Tue, 03 Nov 2026 07:08:36 -0000</pubDate>
-      <sparkle:version>35</sparkle:version>
-      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <title>Grace 0.4.0</title>
+      <pubDate>Wed, 04 Nov 2026 02:18:55 -0000</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Add from YouTube: macOS no longer opens its AutoFill panel over the video preview.</li></ul>]]></description>
-      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.3.2/Grace-0.3.2-x86_64.zip" sparkle:edSignature="0EWIVi64Y8Bzw59abGtyG763KesARI3EtkPq8dsiMEv51NN5a905TOuk8ZR8hbYm9+tVGsFBWBRGBYV6doeZCA==" length="105626683" type="application/octet-stream"/>
+      <description><![CDATA[<p>Search, Shuffle, and settings for each playlist.</p><ul><li>Search the whole library with ⌘F: a panel opens over the window and finds tracks in every playlist by title or file name. Use ↑/↓ and Return to play one, or drag a result onto a playlist to copy it there.</li><li>Shuffle: plays every track once in random order. With Repeat Playlist on, each pass is reshuffled.</li><li>Shuffle, Repeat, Auto Advance and the crossfade are now saved for each playlist and switch when you play a track from another one. A message in the middle of the window shows which playlist&#x27;s settings are in use, and the sidebar marks playlists that shuffle or repeat.</li><li>Dropping onto a playlist in the sidebar works anywhere on its row, and the playlist under the pointer is highlighted.</li></ul>]]></description>
+      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.4.0/Grace-0.4.0-x86_64.zip" sparkle:edSignature="/InApdMVDfZVkkFAXKHgBAuDdqoXqCd/midsS7Y42r16lpIjNt8G3ViVfirCxUVPM5iPc9UEneyL8QfGf5SBCw==" length="105724864" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
