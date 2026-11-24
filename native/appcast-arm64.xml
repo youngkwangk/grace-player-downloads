@@ -3,13 +3,13 @@
   <channel>
     <title>Grace</title>
     <item>
-      <title>Grace 0.4.0</title>
-      <pubDate>Wed, 04 Nov 2026 02:17:08 -0000</pubDate>
-      <sparkle:version>38</sparkle:version>
-      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <title>Grace 0.5.0</title>
+      <pubDate>Tue, 24 Nov 2026 20:10:39 -0000</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Search, Shuffle, and settings for each playlist.</p><ul><li>Search the whole library with ⌘F: a panel opens over the window and finds tracks in every playlist by title or file name. Use ↑/↓ and Return to play one, or drag a result onto a playlist to copy it there.</li><li>Shuffle: plays every track once in random order. With Repeat Playlist on, each pass is reshuffled.</li><li>Shuffle, Repeat, Auto Advance and the crossfade are now saved for each playlist and switch when you play a track from another one. A message in the middle of the window shows which playlist&#x27;s settings are in use, and the sidebar marks playlists that shuffle or repeat.</li><li>Dropping onto a playlist in the sidebar works anywhere on its row, and the playlist under the pointer is highlighted.</li></ul>]]></description>
-      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.4.0/Grace-0.4.0-arm64.zip" sparkle:edSignature="tZ5ZvJV8VvK/r4V1/10OFx70gJWOfVspiI37tAWJQf8/PErMqvNTtt9awMPACbjg79fzzpwGqUAUoiQrmUuKAg==" length="93640473" type="application/octet-stream"/>
+      <description><![CDATA[<p>Export and import playlists as M3U.</p><ul><li>Export Playlist…: from a playlist&#x27;s context menu in the sidebar, or File → Export Playlist… (⇧⌘E). Writes an .m3u8 file with each track&#x27;s title, length and cue points, which VLC also follows.</li><li>Import Playlist…: File → Import Playlist… (⇧⌘I) opens an .m3u or .m3u8 file as a new playlist, keeping its titles and cue points. Files that are missing or can&#x27;t be played are listed in the warning bar and left out. The import can be undone.</li></ul>]]></description>
+      <enclosure url="https://github.com/youngkwangk/grace-player-downloads/releases/download/native-v0.5.0/Grace-0.5.0-arm64.zip" sparkle:edSignature="pgmgzMvYLQ3oHewh9Iw1gWsNeWdbDSS+5XtJagN2BH718ZbVYR4VZs38nouEr2auvRsgpUpQHM2NQNjSiTdVCw==" length="93658184" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
